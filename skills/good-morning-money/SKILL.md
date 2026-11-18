@@ -1,6 +1,6 @@
 ---
 name: good-morning-money
-description: A short, playful daily money brief from a Tiller spreadsheet via the Tiller MCP: big charges, new payees, possible fraud, subscriptions, balances and stale connections, optionally emailed. Use for a daily money brief or a Good Morning, Money update.
+description: "A short, playful daily money brief from a Tiller spreadsheet via the Tiller MCP: big charges, new payees, possible fraud, subscriptions, balances and stale connections, optionally emailed. Use for a daily money brief or a Good Morning, Money update."
 ---
 
 # Good Morning, Money
