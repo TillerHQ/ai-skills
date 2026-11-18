@@ -18,7 +18,7 @@ Tell Claude if/how you'd like the content delivered.
 
 Make this skill a daily scheduled task for delivery by push notification, email or Slack.
 
-I have found Claude's internal email delivery is unreliable so I am using a [Resend](https://resend.com) free/personal account myself. Resend allows up to 100 emails/day on free accounts.
+I have found Claude's internal email delivery is unreliable so I am using a [Resend](https://resend.com) free/personal account myself. Resend allows up to 100 emails/day on free accounts. Alternatively, you could try the Gmail connector.
 
 ## Make It Yours
 
