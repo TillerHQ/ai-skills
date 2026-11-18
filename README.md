@@ -5,7 +5,6 @@ Skills that put AI to work on your Tiller spreadsheet, the financial record you 
 | Skill | What it does | Status |
 | --- | --- | --- |
 | [Good Morning, Money](skills/good-morning-money/) | A short daily brief: big charges, new payees, possible fraud, subscriptions, balances and stale connections. Optional email delivery. | Prototype |
-| [Category Health Check](skills/category-health-check/) | A read-only review of your categories over 1–3 years, with recommendations you can spot-check. | Prototype |
 
 ## Use a skill
 
