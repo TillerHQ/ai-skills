@@ -2,16 +2,25 @@
 
 **Status:** prototype · **Works with:** Claude (skill or scheduled task), ChatGPT/Gemini (paste as instructions) · **Needs:** Tiller connector
 
-A short daily brief from your Tiller spreadsheet: a plain-English summary first, then big charges, new payees, possible fraud, subscriptions, upcoming bills, balances and bank connections that need attention.
+Similar to Tiller's "Hello Money", "Good Morning, Money" 😉 is an AI-driven version that you can fully customize. 
 
-## Try it
+This skill creates a short daily brief from your Tiller spreadsheet: a plain-English summary first, then big charges, new payees, possible fraud, subscriptions, upcoming bills, balances and bank connections that need attention.
+
+Tell Claude if/how you'd like the content delivered. 
+
+## Try It
 
 1. Connect the Tiller connector (MCP: `https://ai-tools.tillermoney.com/mcp`).
 2. Add the skill: upload this folder to Claude's skills, or paste [SKILL.md](SKILL.md) into a Project, custom GPT or Gem.
 3. Ask: "Give me my Good Morning, Money brief."
-4. Optional: make it a daily scheduled task, and email it with your own Resend key (see Delivery in SKILL.md).
 
-## Make it yours
+### Optional:  Automated Delivery 
+
+Make this skill a daily scheduled task for delivery by push notification, email or Slack.
+
+I have found Claude's internal email delivery is unreliable so I am using a [Resend](https://resend.com) free/personal account myself. Resend allows up to 100 emails/day on free accounts.
+
+## Make It Yours
 
 Edit the Settings table at the top of SKILL.md: large-charge threshold, which balances to show, accounts to ignore, tone ("plain" drops the emoji).
 
