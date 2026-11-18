@@ -26,7 +26,7 @@ You'll need the Tiller connector (MCP: `https://ai-tools.tillermoney.com/mcp`) i
 
 These are early prototypes. Tell us what works, what breaks and what you changed: open an issue, suggest an edit with a pull request, or post in the [Tiller Community](https://community.tiller.com/c/ai-workflows/52).
 
-## Use at your own risk
+## Use at Your Own Risk
 
 These skills are experimental prototypes, shared as-is with no warranty of any kind. They give an AI assistant instructions to read, and in some cases change, your Tiller spreadsheet and other connected data.
 
