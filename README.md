@@ -5,8 +5,10 @@ Skills that put AI to work on your Tiller spreadsheet, the financial record you 
 | Skill | What it does | Status |
 | --- | --- | --- |
 | [Good Morning, Money](skills/good-morning-money/) | A short daily brief: big charges, new payees, possible fraud, subscriptions, balances and stale connections. Optional email delivery. | Prototype |
+| [Category Health Check](skills/category-health-check/) | A read-only review of your categories over 1–3 years, with recommendations you can spot-check. | Prototype |
+| [Receipt Capture](skills/receipt-capture/) | Snap a receipt photo: it's saved to Google Drive and linked to the matching transaction, or added as a placeholder until the charge posts. | Prototype |
 
-## Use a Skill
+## Use a skill
 
 Each skill lives in its own folder:
 
@@ -17,16 +19,16 @@ skills/<skill-name>/
   examples/   sample output (optional)
 ```
 
-You'll need the Tiller connector (MCP: `https://ai-tools.tillermoney.com/mcp`) in your AI tool.
+You'll need the Tiller connector (MCP: `https://ai-tools.tillermoney.com/mcp`) in your AI tool. Some skills need other connectors too (Receipt Capture uses Google Sheets and Google Drive); each skill's README lists them.
 
 - **Claude:** download the skill folder as a zip and upload it in Claude's skills settings.
 - **ChatGPT, Gemini and others:** copy the SKILL.md text into a Project, custom GPT or Gem as instructions.
 
-## Feedback & Edits
+## Feedback and edits
 
 These are early prototypes. Tell us what works, what breaks and what you changed: open an issue, suggest an edit with a pull request, or post in the [Tiller Community](https://community.tiller.com/c/ai-workflows/52).
 
-## Use at Your Own Risk
+## Use at your own risk
 
 These skills are experimental prototypes, shared as-is with no warranty of any kind. They give an AI assistant instructions to read, and in some cases change, your Tiller spreadsheet and other connected data.
 
@@ -39,5 +41,5 @@ Tiller is not liable for data loss, errors, or decisions made based on these ski
 
 ## Privacy
 
-Skills read your sheet through the Tiller connector. Category Health Check never changes anything. Never put API keys or account numbers in a skill or a shared prompt.
+Skills read your sheet through the Tiller connector. Category Health Check never changes anything. Receipt Capture writes links, notes and placeholder rows after you confirm a preview, and keeps receipt images private in your own Drive. Never put API keys or account numbers in a skill or a shared prompt.
 
